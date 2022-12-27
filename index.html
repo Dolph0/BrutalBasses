@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brutal Basses landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Permanent+Marker&family=Poppins:wght@300;400;600;700&display=swap" 
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="header" id="header">
+        <h1>Brutal Basses</h1>
+        <div></div>
+        <nav id="nav-bar" class="nav-bar">
+            <ul>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
+                <li><a href="#form" class="nav-link">Form</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="us">
+        <div class="different"><h2>Why we are different</h2></div>
+        <div class="logo1"><img src="images/logoAjustes.png" class="logoA"></div>
+        <div class="text1">Wich kind of music you play? How do you like your action? Do you use a pick or fingerstyle? Tell us everything about your 
+            preferences and we will customize it for you, so you can enjoy your new instrument in your way on day 1... everything free of cost!</div>
+        <div class="logo2"><img src="images/logoCamion.jpg" class="logoD"></div>
+        <div class="text2">We will deliver your new bass to your home for free</div>
+        <div class="logo3"><img src="images/logoMoney.png" class="logoM"></div>
+        <div class="text3">We have a 3 months money back policy, wich means that if 
+            your are not happy with your bass, you can change it for another or have you money back</div>
+
+    </div>
+    <div id="products" class="container">
+        <div class="box1"><img src="images/Pbass.jpg" class="image">Fender Performer P.<br><b> 1369€</b></div>
+        <div class="box2"><img src="images/Jbass.jpg" class="image">Fender Performer Jazz<br><b> 1319€</b></div>
+        <div class="box3"><img src="images/EllefBass.jpg" class="image">Jackson CBX V<br><b> 517€</b></div>
+        <div class="box4"><img src="images/thunderBass.jpg" class="image">Gibson Thunderbird<br><b> 2050€</b></div>
+        <div class="box5"><img src="images/ibaBass.jpg" class="image">Ibanez SR500<br><b> 695€</b></div>
+        <div class="box6"><img src="images/P7bass.jfif" class="image">Sire P10<br> <b>925€</b></div>
+        <div class="box7"><img src="images/V7Bass.jfif" class="image">Sire V10<br><b> 999€</b></div>  
+    </div>
+    <div id="video" class="container2">
+        <div class="boxP"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4IBRYS34WWk" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="boxJ"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/sO-ELtiTuO0" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="boxMarcus"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/dxHOYl_XSGM" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="boxEllefson"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/vbqXa4Ds5tI" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="boxThunder"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4rdehWSbFSY" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="boxIba"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/FZT-NUPVhdg" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+    <form action="https://www.freecodecamp.com/email-submit" id="form" class="form">
+        <h2 class="h22">Order your customize bass</h2>
+        <label for="name" id=name>Name</label><br>
+        <input id="name" type="text" required placeholder="Enter your name"><br><br>
+        <label for="email" id="email">Email</label><br>
+        <input id="email" type="email" required placeholder="Enter your Email"><br><br>
+        <label for="choose-bass">Pick your bass</label><br>
+            <select name="dropdown" id="dropdown" required>
+                <option value="">-</option>
+                <option value="fenderP">Fender Precision</option>
+                <option value="fenderJ">Fender Jazz</option>
+                <option value="JckEllef">Jackson Ellefson</option>
+                <option value="thunder">Gibson Thunderbird</option>
+                <option value="ibanez">Ibanez SR5000</option>
+                <option value="sireP">Sire P7</option>
+                <option value="sireV">Sire V7</option>
+            </select><br><br>
+        <label for="customize">Customize your bass</label><br>
+            <textarea id="customize" name="customize" class="input-textarea" rows="10"
+            placeholder="Do you need specifics strings in your bass? Preferences in your action, any upgrades? 
+            Whatever you want, tell us here!"></textarea><br><br><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
